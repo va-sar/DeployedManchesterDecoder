@@ -1,0 +1,40 @@
+# STM32CubeIDE build output
+Debug/
+Release/
+
+# Local scratch copy of main.c, not part of the build
+Core/Src/working_main.txt
+
+# Object and linker artifacts
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.a
+*.la
+*.lo
+
+# Local IDE metadata
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Lab captures and generated audio (rebuild with tools/generate_manchester_wav.py)
+*.wav
+*.WAV
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
